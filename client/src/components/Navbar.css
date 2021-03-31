@@ -1,0 +1,52 @@
+nav {
+  height: 4rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  box-shadow: 0 1px 20px 0 rgb(46 61 73 / 20%);
+  z-index: 999;
+}
+
+.nav__logo > h1 {
+  font-size: 3rem;
+}
+
+.nav__btn {
+  padding: 10px;
+  max-width: 15.5rem;
+  margin-left: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  outline: none !important;
+  font-weight: 600;
+}
+.nav__btn:hover {
+  cursor: pointer;
+}
+.red {
+  background: #e84546;
+}
+.transparent {
+  background: transparent;
+  color: black;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+}
+.transparent:hover {
+  background: #f4f4f4;
+}
+.red:hover {
+  background-color: rgb(130, 3, 3);
+}
+.logo_link {
+  all: unset;
+  font-size: 3rem;
+  color: black;
+}
+.logo_link:hover {
+  cursor: pointer;
+}

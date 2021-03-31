@@ -1,0 +1,46 @@
+/* Popup */
+.Msg {
+  width: 500px;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 15px;
+  margin: 10% auto 0;
+  text-align: center;
+}
+
+.Msg h2 {
+  color: grey;
+}
+
+.Msg h5 {
+  color: black;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.Button-Close {
+  height: 50px;
+  line-height: 50px;
+  width: 50%;
+  border: none;
+  border-radius: 12px;
+  outline: none;
+  margin: auto !important;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: center;
+}
+.Button-Close:hover {
+  color: #fff;
+}
+@media screen and (max-width: 650px) {
+  .Button .formBox {
+    width: 90%;
+  }
+}
+
+.Msg h3 {
+  text-align: center;
+}

@@ -1,0 +1,8 @@
+.dashboard__container {
+  height: 100%;
+  display: flex;
+}
+.dashboard__content {
+  width: calc(100% - 15rem);
+  height: 100%;
+}

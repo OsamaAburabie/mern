@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none !important;
+  color: black;
+}
+a:hover {
+  color: black;
+}
+
+body {
+  font-family: sans-serif;
+}
+.App {
+  height: calc(100vh - 4rem);
+  width: 100vw;
+}
